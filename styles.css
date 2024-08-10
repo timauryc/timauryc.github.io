@@ -8,36 +8,11 @@ body {
 /* Header Styles */
 header {
     background: url('files/bibliaBanner.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    position: relative;
+    height: 250px; /* Adjust the height as needed to fit the image */
+    width: 100%;
 }
 
-/* Make the header text more readable */
-header h1 {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Section and Footer Styles */
+/* Section Styles */
 section {
     padding: 20px;
     margin: 20px;
@@ -45,25 +20,14 @@ section {
     border-radius: 8px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+h2 {
+    color: #333;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
-        padding: 20px 10px;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
+        height: 200px;
     }
 
     section {
@@ -72,13 +36,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-    header h1 {
-        font-size: 24px;
-        padding: 5px;
-    }
-
-    nav ul li {
-        margin: 5px 0;
+    header {
+        height: 70px;
     }
 
     section {
